@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/WeatherWise/static/css/main.dd9fc9f3.css",
+    "main.js": "/WeatherWise/static/js/main.818b87bb.js",
+    "static/js/787.3e382e01.chunk.js": "/WeatherWise/static/js/787.3e382e01.chunk.js",
+    "static/media/back.jpg": "/WeatherWise/static/media/back.788c7911979c5cb4b2d3.jpg",
+    "index.html": "/WeatherWise/index.html",
+    "main.dd9fc9f3.css.map": "/WeatherWise/static/css/main.dd9fc9f3.css.map",
+    "main.818b87bb.js.map": "/WeatherWise/static/js/main.818b87bb.js.map",
+    "787.3e382e01.chunk.js.map": "/WeatherWise/static/js/787.3e382e01.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd9fc9f3.css",
+    "static/js/main.818b87bb.js"
+  ]
+}
