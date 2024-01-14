@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+
+
+.App{
+  background-image: url('./images/back.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(54, 54, 137);
+  height: 91.2vh;
+  padding: 3rem;
+  padding-top: 1rem;
+  top:0;
+  
+}
+.top{
+
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 51vh;
+}
+.tleft{
+  width: 50%;
+  height: 100%;
+  border-right: 2px solid black;
+  
+ 
+}
+.tleftt{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap:2rem
+}
+.bottom-top{
+ 
+  width: 100%;
+  height: 40vh;
+}
+.bottom{
+ 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap:2rem;
+  padding-top: 5rem;
+}
+.sub-bottom{
+  background-color: rgb(87, 87, 161);
+ text-align: center;
+  width: 10rem;
+  height: 13rem;
+  color: white  ;
+  border-radius: 1rem;
+  
+}
+.ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap:2rem
+}
+li{
+  color:rgb(255, 255, 255);
+  list-style: none;
+  width: 10rem;
+  height: 10rem;
+  text-align: center;
+ background-color: rgba(32, 32, 214, 0.3);
+ backdrop-filter: blur(1000px);
+ border-radius: 1rem;
+ padding-bottom: 1rem;
+}
+.wicon{
+
+  color: white;
+  height: 15rem;
+  width: 15rem;
+}
+h3,h1{
+  font-family: 'Oswald', sans-serif;
+  font-size: 3rem;
+  color: white;
+}
+h2{
+  font-family: 'Oswald', sans-serif;
+}
+.bottom-top h2{
+  font-family: 'Oswald', sans-serif;
+  font-size: 2rem;
+  color: white;
+}
+p{
+  font-family: 'Oswald', sans-serif;
+}
+input{
+  font-size: large;
+  width: 100%;
+  height: 4rem;
+  border-radius: 0.5rem;
+  
+}
+.sub-tleft{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  height: 30vh;
+  width: 40vh;
+  bottom: 0;
+}
+@media screen and (max-width:1180px) {
+  
+  .top{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50vh;
+
+  } 
+  .tleft{
+    width: 50%;
+    height: 100%;
+    border-right: 0px solid black;
+  }
+  li{
+   width: 8rem;
+  }
+}
+@media screen and (max-width:1000px) {
+  .top{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50vh;
+  } 
+
+  .tleft{
+    width: 100%;
+    height: 100%;
+    border-right: 0px solid black;
+    
+   
+  }
+  .sub-tleft{
+    height: 6rem;
+  }
+  input{
+    font-size: 1.5rem;
+  }
+  .tleftt{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    border: transparent;
+  }
+  .wicon{
+    color: white;
+    height: 5rem;
+    width: 5rem;
+  }
+  .bottom-top{
+    display: none;
+  }
+  li{
+    height: 8rem;
+  }
+  h2{
+    font-size: medium;
+  }
+}
